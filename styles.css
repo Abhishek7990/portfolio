@@ -1,0 +1,67 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+hr {
+    border: none;
+   
+   border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/* rgba(248, 240, 240, 0.829) */
+
+
+.headimg {
+margin-top: 4rem;
+}
+
+
+.name {
+    top: 1.2rem;
+    left: 8.2px;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+.top-head::-webkit-scrollbar {
+    width: 6px;
+    background-color: #54B689;
+}
+
+.top-head::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: .5rem;
+}
+
+@media (max-width: 991.98px){
+    .p-img {
+    width: 300px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+#left {
+    position: fixed;
+    height: 100vh;
+}
+
+#right {
+    position: absolute;
+    left: 302px;
+    right: 0px;
+    
+}
+}
+
+@media screen and (max-width: 599px) {
+.mobile{
+    margin-top: 17px;
+}
+}
